@@ -118,7 +118,14 @@ a :hover{
     text-align: center;
 }
 
+#fave {
+    img {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 
+}}
 
 img {
     display:flex;

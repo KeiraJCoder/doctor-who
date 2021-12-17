@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap');
+
+@font-face {
+    font-family: 'Doctor Who Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Doctor Who Regular'), url('doctor_who.woff') format('woff');
+    }
+
+* {
+    box-sizing: border-box;
+    padding: 1%;
+}
+/* comment this bish */
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(29, 47, 206);
+    font-family:'Doctor Who Regular';
+    background-image: url("banner.jpeg.crdownload");
+    background-position: center;
+    background-size: cover;
+
+}
+/* for class we use . */
+/* for id we use hashtag */
+
+.nav a {
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav :hover {
+    color: rgb(60, 99, 217);
+}
+
+
+body {
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    font-size: 80px;
+    font-family:'Doctor Who Regular';
+    font-weight:bold;
+}
+
+h2 {
+    display: inline-flex;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    font-family:'Doctor Who Regular';
+    background-color: darkblue;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    background-color: darkblue;
+    font-size: 20px;
+    font-family:'Doctor Who Regular';  
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    padding:3%;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: black;
+}
+
+.img1 {
+    display:flex;
+    margin-left:40%;
+}
+
+.second {
+    display:flex;
+    margin-left:26%;
+}
+
+.third {
+    display:flex;
+    margin-left:35%;
+}
+
+.contact {
+    color: cornsilk;
+    font-family: 'Doctor Who Regular';
+    font-size: 25px;
+}
+
+a :hover{
+    color: rgb(236, 9, 9);
+}

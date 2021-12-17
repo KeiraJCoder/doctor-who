@@ -110,13 +110,15 @@ a :hover{
 
 .fave {
     display: inline-flex;
-    margin-left:33%;
+    margin-left:40%;
     background-color: rgb(40, 20, 172);
     color: rgb(255, 238, 2);
     font-family: 'Doctor Who Regular';
     font-size: 20px;
     text-align: center;
 }
+
+
 
 img {
     display:flex;

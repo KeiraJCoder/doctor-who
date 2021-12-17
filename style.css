@@ -54,29 +54,40 @@ h1 {
     display: flex;
     justify-content: center;
     color:rgb(255, 255, 255);
-    font-size: 80px;
+    font-size: 90px;
+    border-style: double;
+    background-image: url("backg.jpeg");
+    background-color: darkblue;
     font-family:'Doctor Who Regular';
-    font-weight:bold;
     text-align: center;
 }
 
 h2 {
     display: flex;
+    border-style: double;
+    text-decoration: white;
     justify-content: center;
-    color:rgb(255, 255, 255);
+    color:rgb(230, 241, 236);
     font-size: 40px;
-    font-family:'Doctor Who Regular';
+    background-image: url("backg.jpeg");
     background-color: darkblue;
+    font-family:'Doctor Who Regular';
     text-align: center;
+
 }
 
 h3 {
     display: flex;
+    border-style: double;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("backg.jpeg");
     color:rgb(255, 255, 255);
-    background-color: darkblue;
-    font-size: 20px;
+    font-size: 40px;
     font-family:'Doctor Who Regular';  
+    text-align: center;
     text-align: center;
 }
 
@@ -85,10 +96,11 @@ p {
     justify-content: center;
     padding:3%;
     color: rgb(144, 143, 233);
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
     background-color: black;
     text-align: center;
+    border-style: double;
 }
 
 .contact {
@@ -131,5 +143,16 @@ img {
     justify-content: center;
     align-items: center;
     margin: auto;
+}
 
+.top {
+    display: flex;
+    justify-content: center;
+    font-family: 'Doctor Who Regular';
+    font-size:30px;
+
+}
+
+.top a {
+    color: rgb(255, 255, 255);
 }

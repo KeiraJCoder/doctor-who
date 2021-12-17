@@ -24,7 +24,7 @@
     background-position:top;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-size: larger;
+    font-size: 30px;
 
 }
 /* for class we use . */
@@ -94,6 +94,8 @@ p {
 .contact {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     color: cornsilk;
     font-family: 'Doctor Who Regular';
     font-size: 40px;
@@ -109,8 +111,7 @@ a :hover{
 
 .fave {
     display: inline-flex;
-    margin-left:40%;
-    justify-content:center;
+    margin-left:33%;
     background-color: rgb(40, 20, 172);
     color: rgb(255, 238, 2);
     font-family: 'Doctor Who Regular';
@@ -119,7 +120,6 @@ a :hover{
 }
 
 #fave {
-    img {
     display:flex;
     justify-content: center;
     align-items: center;

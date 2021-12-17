@@ -111,6 +111,7 @@ a :hover{
 
 .fave {
     display: inline-flex;
+    margin-left:33%;
     justify-content:center;
     background-color: rgb(40, 20, 172);
     color: rgb(255, 238, 2);

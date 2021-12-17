@@ -110,6 +110,7 @@ a :hover{
 .fave {
     display: inline-flex;
     margin-left:40%;
+    justify-content:center;
     background-color: rgb(40, 20, 172);
     color: rgb(255, 238, 2);
     font-family: 'Doctor Who Regular';
